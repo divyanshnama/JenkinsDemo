@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|c:\\users\\divyanshnama\\source\\repos\\samplesolution\\myappjenkins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|solutionrelative:myappjenkins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D2B76ED-855C-43D5-AEB8-8C0E6FDC9F33}|MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj|c:\\users\\divyanshnama\\source\\repos\\samplesolution\\myappjenkins.tests\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D2B76ED-855C-43D5-AEB8-8C0E6FDC9F33}|MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj|solutionrelative:myappjenkins.tests\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D2B76ED-855C-43D5-AEB8-8C0E6FDC9F33}|MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj|c:\\users\\divyanshnama\\source\\repos\\samplesolution\\myappjenkins.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D2B76ED-855C-43D5-AEB8-8C0E6FDC9F33}|MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj|solutionrelative:myappjenkins.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|c:\\users\\divyanshnama\\source\\repos\\samplesolution\\myappjenkins\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|solutionrelative:myappjenkins\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D2B76ED-855C-43D5-AEB8-8C0E6FDC9F33}|MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj|c:\\users\\divyanshnama\\source\\repos\\samplesolution\\myappjenkins.tests\\myappjenkins.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D2B76ED-855C-43D5-AEB8-8C0E6FDC9F33}|MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj|solutionrelative:myappjenkins.tests\\myappjenkins.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|c:\\users\\divyanshnama\\source\\repos\\samplesolution\\myappjenkins\\myappjenkins.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|solutionrelative:myappjenkins\\myappjenkins.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|c:\\users\\divyanshnama\\source\\repos\\samplesolution\\myappjenkins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{395CBDDC-D89D-4A73-A792-BA0BBD50EA9B}|MyAppJenkins\\MyAppJenkins.csproj|solutionrelative:myappjenkins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,20 +38,72 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyAppJenkins.Tests",
+              "DocumentMoniker": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj",
+              "RelativeDocumentMoniker": "MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj",
+              "ToolTip": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj",
+              "RelativeToolTip": "MyAppJenkins.Tests\\MyAppJenkins.Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T08:49:40.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorTest.cs",
+              "DocumentMoniker": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins.Tests\\CalculatorTest.cs",
+              "RelativeDocumentMoniker": "MyAppJenkins.Tests\\CalculatorTest.cs",
+              "ToolTip": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins.Tests\\CalculatorTest.cs",
+              "RelativeToolTip": "MyAppJenkins.Tests\\CalculatorTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:50:14.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "MyAppJenkins.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "MyAppJenkins.Tests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:49:29.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyAppJenkins",
+              "DocumentMoniker": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins\\MyAppJenkins.csproj",
+              "RelativeDocumentMoniker": "MyAppJenkins\\MyAppJenkins.csproj",
+              "ToolTip": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins\\MyAppJenkins.csproj",
+              "RelativeToolTip": "MyAppJenkins\\MyAppJenkins.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T08:47:32.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins\\Calculator.cs",
               "RelativeDocumentMoniker": "MyAppJenkins\\Calculator.cs",
               "ToolTip": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins\\Calculator.cs",
               "RelativeToolTip": "MyAppJenkins\\Calculator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T06:17:03.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DivyanshNama\\source\\repos\\SampleSolution\\MyAppJenkins\\Program.cs",
               "RelativeDocumentMoniker": "MyAppJenkins\\Program.cs",

@@ -1,0 +1,15 @@
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\bin\Debug\net8.0\MyAppJenkins.exe
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\bin\Debug\net8.0\MyAppJenkins.deps.json
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\bin\Debug\net8.0\MyAppJenkins.runtimeconfig.json
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\bin\Debug\net8.0\MyAppJenkins.dll
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\bin\Debug\net8.0\MyAppJenkins.pdb
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.AssemblyInfoInputs.cache
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.AssemblyInfo.cs
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.csproj.CoreCompileInputs.cache
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.sourcelink.json
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.dll
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\refint\MyAppJenkins.dll
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.pdb
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\MyAppJenkins.genruntimeconfig.cache
+C:\Users\DivyanshNama\source\repos\SampleSolution\MyAppJenkins\obj\Debug\net8.0\ref\MyAppJenkins.dll
