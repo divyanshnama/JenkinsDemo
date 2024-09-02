@@ -33,21 +33,21 @@ pipeline {
         stage('Restore') {
             steps {
                 script {
-                    bat 'dotnet restore SampleSolution/MyAppJenkins.csproj'
+                    bat 'dotnet restore SampleSolution/MyAppJenkins/MyAppJenkins.csproj'
                 }
             }
         }
         stage('Build') {
             steps {
                 script {
-                    bat 'dotnet build SampleSolution/MyAppJenkins.csproj'
+                    bat 'dotnet build SampleSolution/MyAppJenkins/MyAppJenkins.csproj'
                 }
             }
         }
         stage('Test') {
             steps {
                 script {
-                    bat 'dotnet test SampleSolution/MyAppJenkins.Tests.csproj --logger "trx;LogFileName=TestResults/test_results.trx"'
+                    bat 'dotnet test SampleSolution/MyAppJenkins.Tests/MyAppJenkins.Tests.csproj --logger "trx;LogFileName=TestResults/test_results.trx"'
                 }
             }
         }
