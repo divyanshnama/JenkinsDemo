@@ -2,55 +2,69 @@ pipeline {
     agent any
 
     tools {
-        dotnetsdk 'dotnet' // Ensure this matches the name in Global Tool Configuration
+        dotnetsdk 'dotnet-sdk'  // Use the name you gave the .NET SDK in Global Tool Configuration
     }
 
     stages {
         stage('Checkout') {
             steps {
-                // Pulling the code from GitHub
-                git branch: 'main', url: 'https://github.com/divyanshnama/JenkinsDemo.git'
+                checkout scm
             }
         }
-
-        stage('Build') {
+        stage('Check NuGet Sources') {
             steps {
                 script {
-                    def slnFile = findFiles(glob: '*/.sln')[0].path
-                    echo "Building solution: ${slnFile}"
-                    bat "dotnet build ${slnFile} --configuration Release"
+                    bat 'dotnet nuget list source'
                 }
             }
         }
-
-        stage('Test') {
+        stage('Configure NuGet Source') {
             steps {
                 script {
-                    def testProjects = findFiles(glob: '*/*Tests/.csproj')
-                    for (def project in testProjects) {
-                        echo "Running tests for project: ${project.path}"
-                        bat "dotnet test ${project.path} --no-build --verbosity normal"
+                    def output = bat(script: 'dotnet nuget list source', returnStdout: true).trim()
+                    if (!output.contains('https://api.nuget.org/v3/index.json')) {
+                        bat 'dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org'
+                    } else {
+                        echo 'NuGet source already exists.'
                     }
                 }
             }
         }
-
+        stage('Restore') {
+            steps {
+                script {
+                    bat 'dotnet restore SampleSolution/MyAppJenkins.csproj'
+                }
+            }
+        }
+        stage('Build') {
+            steps {
+                script {
+                    bat 'dotnet build SampleSolution/MyAppJenkins.csproj'
+                }
+            }
+        }
+        stage('Test') {
+            steps {
+                script {
+                    bat 'dotnet test SampleSolution/MyAppJenkins.Tests.csproj --logger "trx;LogFileName=TestResults/test_results.trx"'
+                }
+            }
+        }
+        stage('List Test Results') {
+            steps {
+                script {
+                    bat 'dir "MyAppJenkins.Tests\\TestResults"'
+                }
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                bat "dotnet publish -c Release -o /path/to/deploy"
+                // Deployment steps go here
             }
         }
     }
 
-    post {
-        always {
-            // Archive test results, if any
-            junit '*/TestResults/.xml'
-        }
-        failure {
-            // Additional steps if build fails
-            echo 'Build failed!'
-        }
-    }
+    
 }
